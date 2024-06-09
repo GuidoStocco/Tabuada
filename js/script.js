@@ -11,3 +11,13 @@ const multiplicatorInput = document.querySelector("#multiplicator");
 
 
 // eventos
+multiplicationForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    const multiplicationNumber = +numberInput.value;
+    const multiplicatorNumber = +multiplicatorInput.value;
+
+    if(!multiplicationNumber || !multiplicatorNumber){
+        return
+    }
+});
