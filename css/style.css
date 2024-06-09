@@ -64,3 +64,33 @@ h2{
     cursor: pointer;
     font-weight: bold;
 }
+
+/* TABELA */
+.multiplication-operation{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    margin: 1rem auto;
+    padding: 2rem 1rem;
+    background-color: #fff;
+    color: #333;
+    border-radius: 1rem;
+}
+
+.multiplication-operation .row{
+    display: flex;
+    border: 1px solid #ccc;
+    justify-content: center;
+    border-bottom: none;
+    padding: 0.5rem;
+    width: 150px;
+}
+
+.multiplication-operation .row:last-child{
+    border-bottom: 1px solid #ccc;
+}
+
+.multiplication-operation .result{
+    padding-left: .4rem;
+}
